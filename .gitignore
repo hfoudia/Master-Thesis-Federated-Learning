@@ -1,0 +1,5 @@
+/FLAD/__pycache__
+*.pcap
+/LUCID/__pycache__
+*.hdf5
+*.data

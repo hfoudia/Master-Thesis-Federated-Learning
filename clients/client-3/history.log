@@ -1,0 +1,2 @@
+2024-08-16 14:19:28 | dataset_type:IDS2017 | flows (tot,ben,malicious):(274641,267018,7623) | fragments (tot,ben,malicious):(632179,617627,14552) | options:--dataset_type IDS2017 --dataset_folder ../clients/client-3/ --packets_per_flow 10 --dataset_id IDS2017 --traffic_type all --time_window 10 | process_time:8592.792248487473 |
+2024-08-16 14:19:31 | examples (tot,ben,malicious):(29104,14552,14552) | Train/Val/Test sizes: (23572,2620,2912) | Packets (train,val,test):(157682,17816,19576) | options:--preprocess_folder ../clients/client-3/ |

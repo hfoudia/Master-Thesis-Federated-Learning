@@ -1,0 +1,1893 @@
+Model: "mlp"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ flatten (Flatten)           (None, 110)               0         
+                                                                 
+ fc0 (Dense)                 (None, 32)                3552      
+                                                                 
+ fc1 (Dense)                 (None, 32)                1056      
+                                                                 
+ fc3 (Dense)                 (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 4,641
+Trainable params: 4,641
+Non-trainable params: 0
+_________________________________________________________________
+None
+Training client in folder:  ../clients/client-1/
+Batch Size : 518
+Epoch 1/5
+1002/1002 - 1s - loss: 0.4556 - accuracy: 0.7673 - val_loss: 0.3397 - val_accuracy: 0.7770 - 717ms/epoch - 715us/step
+Epoch 2/5
+1002/1002 - 0s - loss: 0.3136 - accuracy: 0.8288 - val_loss: 0.2893 - val_accuracy: 0.8454 - 469ms/epoch - 468us/step
+Epoch 3/5
+1002/1002 - 0s - loss: 0.2862 - accuracy: 0.8484 - val_loss: 0.2631 - val_accuracy: 0.9633 - 453ms/epoch - 452us/step
+Epoch 4/5
+1002/1002 - 0s - loss: 0.2669 - accuracy: 0.8613 - val_loss: 0.2824 - val_accuracy: 0.8227 - 460ms/epoch - 459us/step
+Epoch 5/5
+1002/1002 - 1s - loss: 0.2559 - accuracy: 0.8651 - val_loss: 0.2746 - val_accuracy: 0.8557 - 554ms/epoch - 553us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 116
+Epoch 1/5
+1003/1003 - 1s - loss: 0.5458 - accuracy: 0.7247 - val_loss: 0.4403 - val_accuracy: 0.7518 - 643ms/epoch - 641us/step
+Epoch 2/5
+1003/1003 - 0s - loss: 0.4235 - accuracy: 0.7592 - val_loss: 0.4255 - val_accuracy: 0.7343 - 373ms/epoch - 372us/step
+Epoch 3/5
+1003/1003 - 0s - loss: 0.3937 - accuracy: 0.7882 - val_loss: 0.3713 - val_accuracy: 0.7373 - 429ms/epoch - 428us/step
+Epoch 4/5
+1003/1003 - 0s - loss: 0.3779 - accuracy: 0.7971 - val_loss: 0.3575 - val_accuracy: 0.7333 - 406ms/epoch - 404us/step
+Epoch 5/5
+1003/1003 - 0s - loss: 0.3657 - accuracy: 0.8120 - val_loss: 0.3477 - val_accuracy: 0.9466 - 350ms/epoch - 349us/step
+Training client in folder:  ../clients/client-3/
+Batch Size : 23
+Epoch 1/5
+1025/1025 - 1s - loss: 0.2969 - accuracy: 0.8830 - val_loss: 0.1977 - val_accuracy: 0.9153 - 551ms/epoch - 538us/step
+Epoch 2/5
+1025/1025 - 0s - loss: 0.1554 - accuracy: 0.9392 - val_loss: 0.1575 - val_accuracy: 0.9412 - 325ms/epoch - 317us/step
+Epoch 3/5
+1025/1025 - 0s - loss: 0.1282 - accuracy: 0.9498 - val_loss: 0.1392 - val_accuracy: 0.9477 - 348ms/epoch - 339us/step
+Epoch 4/5
+1025/1025 - 0s - loss: 0.1107 - accuracy: 0.9576 - val_loss: 0.1368 - val_accuracy: 0.9435 - 332ms/epoch - 324us/step
+Epoch 5/5
+1025/1025 - 0s - loss: 0.1036 - accuracy: 0.9613 - val_loss: 0.1159 - val_accuracy: 0.9515 - 327ms/epoch - 319us/step
+Training client in folder:  ../clients/client-4/
+Batch Size : 363
+Epoch 1/5
+1001/1001 - 1s - loss: 0.3308 - accuracy: 0.8671 - val_loss: 0.2199 - val_accuracy: 0.9228 - 616ms/epoch - 615us/step
+Epoch 2/5
+1001/1001 - 0s - loss: 0.1937 - accuracy: 0.9298 - val_loss: 0.1820 - val_accuracy: 0.9444 - 479ms/epoch - 479us/step
+Epoch 3/5
+1001/1001 - 0s - loss: 0.1698 - accuracy: 0.9414 - val_loss: 0.1740 - val_accuracy: 0.9440 - 462ms/epoch - 462us/step
+Epoch 4/5
+1001/1001 - 0s - loss: 0.1564 - accuracy: 0.9466 - val_loss: 0.1552 - val_accuracy: 0.9395 - 455ms/epoch - 455us/step
+Epoch 5/5
+1001/1001 - 0s - loss: 0.1443 - accuracy: 0.9505 - val_loss: 0.1710 - val_accuracy: 0.9441 - 459ms/epoch - 459us/step
+
+################ Round: 00001 ################
+client-1: 0.0038425262863730045
+client-2: 0.006063362134303471
+client-3: 0.0
+client-4: 0.661669596364963
+==============================================
+Average F1 Score:  0.1678938711964099
+Std_dev F1 Score:  0.2850897999671067
+New Max F1 Score: 0.1678938711964099
+Current Max F1 Score: 0.1678938711964099
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 1394
+Epoch 1/2
+373/373 - 0s - loss: 0.3471 - accuracy: 0.8177 - val_loss: 0.5164 - val_accuracy: 0.7461 - 443ms/epoch - 1ms/step
+Epoch 2/2
+373/373 - 0s - loss: 0.2960 - accuracy: 0.8431 - val_loss: 0.2825 - val_accuracy: 0.8746 - 278ms/epoch - 745us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.6908 - accuracy: 0.6869 - val_loss: 0.8157 - val_accuracy: 0.7008 - 214ms/epoch - 19ms/step
+Training client in folder:  ../clients/client-3/
+Batch Size : 23
+Epoch 1/5
+1025/1025 - 1s - loss: 0.1655 - accuracy: 0.9341 - val_loss: 0.1384 - val_accuracy: 0.9542 - 503ms/epoch - 490us/step
+Epoch 2/5
+1025/1025 - 0s - loss: 0.1240 - accuracy: 0.9524 - val_loss: 0.1334 - val_accuracy: 0.9500 - 310ms/epoch - 302us/step
+Epoch 3/5
+1025/1025 - 0s - loss: 0.1136 - accuracy: 0.9564 - val_loss: 0.1322 - val_accuracy: 0.9607 - 409ms/epoch - 399us/step
+Epoch 4/5
+1025/1025 - 0s - loss: 0.1015 - accuracy: 0.9613 - val_loss: 0.1242 - val_accuracy: 0.9489 - 354ms/epoch - 345us/step
+Epoch 5/5
+1025/1025 - 0s - loss: 0.0959 - accuracy: 0.9641 - val_loss: 0.1097 - val_accuracy: 0.9527 - 371ms/epoch - 362us/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00002 ################
+client-1: 0.4513417394115745
+client-2: 0.6118151686488594
+client-3: 0.9378698224852071
+client-4: 0.8148268662382385
+==============================================
+Average F1 Score:  0.70396339919597
+Std_dev F1 Score:  0.18662256198392937
+New Max F1 Score: 0.70396339919597
+Current Max F1 Score: 0.70396339919597
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 944
+Epoch 1/3
+550/550 - 1s - loss: 0.3136 - accuracy: 0.8365 - val_loss: 0.2687 - val_accuracy: 0.8472 - 569ms/epoch - 1ms/step
+Epoch 2/3
+550/550 - 0s - loss: 0.2742 - accuracy: 0.8554 - val_loss: 0.2492 - val_accuracy: 0.8488 - 341ms/epoch - 619us/step
+Epoch 3/3
+550/550 - 0s - loss: 0.2597 - accuracy: 0.8601 - val_loss: 0.2522 - val_accuracy: 0.8487 - 351ms/epoch - 638us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.6225 - accuracy: 0.7097 - val_loss: 1.1589 - val_accuracy: 0.6941 - 224ms/epoch - 20ms/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00003 ################
+client-1: 0.655209617755857
+client-2: 0.7789499359717056
+client-3: 0.764794232502253
+client-4: 0.7474553407186363
+==============================================
+Average F1 Score:  0.7366022817371131
+Std_dev F1 Score:  0.048297682517742926
+New Max F1 Score: 0.7366022817371131
+Current Max F1 Score: 0.7366022817371131
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 518
+Epoch 1/5
+1002/1002 - 1s - loss: 0.2811 - accuracy: 0.8513 - val_loss: 0.2551 - val_accuracy: 0.8758 - 795ms/epoch - 793us/step
+Epoch 2/5
+1002/1002 - 1s - loss: 0.2479 - accuracy: 0.8685 - val_loss: 0.2224 - val_accuracy: 0.8655 - 524ms/epoch - 523us/step
+Epoch 3/5
+1002/1002 - 1s - loss: 0.2297 - accuracy: 0.8813 - val_loss: 0.2040 - val_accuracy: 0.9558 - 557ms/epoch - 556us/step
+Epoch 4/5
+1002/1002 - 1s - loss: 0.2158 - accuracy: 0.8877 - val_loss: 0.1860 - val_accuracy: 0.9688 - 520ms/epoch - 519us/step
+Epoch 5/5
+1002/1002 - 1s - loss: 0.2057 - accuracy: 0.8914 - val_loss: 0.2688 - val_accuracy: 0.8671 - 504ms/epoch - 503us/step
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00004 ################
+client-1: 0.8461250915833072
+client-2: 0.809380637402285
+client-3: 0.5442348008385745
+client-4: 0.7676926180815531
+==============================================
+Average F1 Score:  0.7418582869764299
+Std_dev F1 Score:  0.11742368722588405
+New Max F1 Score: 0.7418582869764299
+Current Max F1 Score: 0.7418582869764299
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Batch Size : 23
+Epoch 1/5
+1025/1025 - 0s - loss: 0.1493 - accuracy: 0.9403 - val_loss: 0.1357 - val_accuracy: 0.9462 - 484ms/epoch - 473us/step
+Epoch 2/5
+1025/1025 - 0s - loss: 0.1162 - accuracy: 0.9555 - val_loss: 0.1244 - val_accuracy: 0.9519 - 345ms/epoch - 336us/step
+Epoch 3/5
+1025/1025 - 0s - loss: 0.1073 - accuracy: 0.9596 - val_loss: 0.1267 - val_accuracy: 0.9576 - 417ms/epoch - 407us/step
+Epoch 4/5
+1025/1025 - 0s - loss: 0.0981 - accuracy: 0.9632 - val_loss: 0.1187 - val_accuracy: 0.9511 - 372ms/epoch - 363us/step
+Epoch 5/5
+1025/1025 - 0s - loss: 0.0929 - accuracy: 0.9656 - val_loss: 0.1131 - val_accuracy: 0.9531 - 329ms/epoch - 321us/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00005 ################
+client-1: 0.4709412268979602
+client-2: 0.6244028662420382
+client-3: 0.9251170046801872
+client-4: 0.8233893518646695
+==============================================
+Average F1 Score:  0.7109626124212138
+Std_dev F1 Score:  0.1757873222340014
+Stop counter: 1
+Current Max F1 Score: 0.7418582869764299
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 978
+Epoch 1/3
+531/531 - 1s - loss: 0.2711 - accuracy: 0.8607 - val_loss: 0.2357 - val_accuracy: 0.9070 - 568ms/epoch - 1ms/step
+Epoch 2/3
+531/531 - 0s - loss: 0.2438 - accuracy: 0.8671 - val_loss: 0.2114 - val_accuracy: 0.8651 - 331ms/epoch - 624us/step
+Epoch 3/3
+531/531 - 0s - loss: 0.2310 - accuracy: 0.8750 - val_loss: 0.2204 - val_accuracy: 0.8724 - 338ms/epoch - 637us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.6100 - accuracy: 0.7083 - val_loss: 0.8220 - val_accuracy: 0.7118 - 198ms/epoch - 18ms/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00006 ################
+client-1: 0.6965320304375815
+client-2: 0.7985069740030123
+client-3: 0.6556413083425211
+client-4: 0.766696880596025
+==============================================
+Average F1 Score:  0.729344298344785
+Std_dev F1 Score:  0.05631932786692484
+Stop counter: 2
+Current Max F1 Score: 0.7418582869764299
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 51868
+11/11 - 0s - loss: 0.4038 - accuracy: 0.7825 - val_loss: 0.4714 - val_accuracy: 0.7465 - 269ms/epoch - 24ms/step
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Batch Size : 68
+Epoch 1/2
+347/347 - 0s - loss: 0.1259 - accuracy: 0.9541 - val_loss: 0.1347 - val_accuracy: 0.9458 - 309ms/epoch - 889us/step
+Epoch 2/2
+347/347 - 0s - loss: 0.1074 - accuracy: 0.9626 - val_loss: 0.1175 - val_accuracy: 0.9595 - 124ms/epoch - 359us/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00007 ################
+client-1: 0.5608940594512893
+client-2: 0.6219875180028804
+client-3: 0.9328440366972477
+client-4: 0.8651303945270306
+==============================================
+Average F1 Score:  0.7452140021696121
+Std_dev F1 Score:  0.15711745502699534
+New Max F1 Score: 0.7452140021696121
+Current Max F1 Score: 0.7452140021696121
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 1178
+Epoch 1/3
+441/441 - 0s - loss: 0.2620 - accuracy: 0.8608 - val_loss: 0.2300 - val_accuracy: 0.8655 - 492ms/epoch - 1ms/step
+Epoch 2/3
+441/441 - 0s - loss: 0.2389 - accuracy: 0.8701 - val_loss: 0.2191 - val_accuracy: 0.8661 - 352ms/epoch - 798us/step
+Epoch 3/3
+441/441 - 0s - loss: 0.2257 - accuracy: 0.8828 - val_loss: 0.2181 - val_accuracy: 0.8668 - 336ms/epoch - 763us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.5927 - accuracy: 0.7097 - val_loss: 0.8182 - val_accuracy: 0.7191 - 200ms/epoch - 18ms/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00008 ################
+client-1: 0.8318308160654146
+client-2: 0.7960642833715973
+client-3: 0.6724574737604053
+client-4: 0.7738361143958306
+==============================================
+Average F1 Score:  0.7685471718983119
+Std_dev F1 Score:  0.059209826135274535
+New Max F1 Score: 0.7685471718983119
+Current Max F1 Score: 0.7685471718983119
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Batch Size : 23
+Epoch 1/5
+1025/1025 - 1s - loss: 0.1278 - accuracy: 0.9529 - val_loss: 0.1177 - val_accuracy: 0.9511 - 520ms/epoch - 507us/step
+Epoch 2/5
+1025/1025 - 0s - loss: 0.1041 - accuracy: 0.9607 - val_loss: 0.1097 - val_accuracy: 0.9542 - 303ms/epoch - 295us/step
+Epoch 3/5
+1025/1025 - 0s - loss: 0.0990 - accuracy: 0.9629 - val_loss: 0.1092 - val_accuracy: 0.9626 - 350ms/epoch - 341us/step
+Epoch 4/5
+1025/1025 - 0s - loss: 0.0904 - accuracy: 0.9664 - val_loss: 0.1053 - val_accuracy: 0.9542 - 323ms/epoch - 315us/step
+Epoch 5/5
+1025/1025 - 0s - loss: 0.0864 - accuracy: 0.9677 - val_loss: 0.1005 - val_accuracy: 0.9569 - 320ms/epoch - 312us/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00009 ################
+client-1: 0.43159699460440726
+client-2: 0.6232486230553677
+client-3: 0.9423503325942351
+client-4: 0.8192861952861953
+==============================================
+Average F1 Score:  0.7041205363850513
+Std_dev F1 Score:  0.19418155936022488
+Stop counter: 1
+Current Max F1 Score: 0.7685471718983119
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 911
+Epoch 1/3
+570/570 - 1s - loss: 0.2571 - accuracy: 0.8613 - val_loss: 0.2133 - val_accuracy: 0.8649 - 542ms/epoch - 951us/step
+Epoch 2/3
+570/570 - 0s - loss: 0.2246 - accuracy: 0.8799 - val_loss: 0.1982 - val_accuracy: 0.9667 - 412ms/epoch - 723us/step
+Epoch 3/3
+570/570 - 0s - loss: 0.2160 - accuracy: 0.8857 - val_loss: 0.1831 - val_accuracy: 0.9837 - 369ms/epoch - 648us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.5852 - accuracy: 0.7161 - val_loss: 0.9605 - val_accuracy: 0.7088 - 211ms/epoch - 19ms/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00010 ################
+client-1: 0.6671941971645236
+client-2: 0.7873944705806535
+client-3: 0.8050713153724247
+client-4: 0.7608080456267142
+==============================================
+Average F1 Score:  0.755117007186079
+Std_dev F1 Score:  0.05315090777725208
+Stop counter: 2
+Current Max F1 Score: 0.7685471718983119
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 518
+Epoch 1/5
+1002/1002 - 1s - loss: 0.2322 - accuracy: 0.8791 - val_loss: 0.1954 - val_accuracy: 0.9656 - 721ms/epoch - 720us/step
+Epoch 2/5
+1002/1002 - 1s - loss: 0.2095 - accuracy: 0.8900 - val_loss: 0.1964 - val_accuracy: 0.8682 - 513ms/epoch - 512us/step
+Epoch 3/5
+1002/1002 - 1s - loss: 0.1990 - accuracy: 0.8963 - val_loss: 0.1632 - val_accuracy: 0.9728 - 559ms/epoch - 557us/step
+Epoch 4/5
+1002/1002 - 0s - loss: 0.1872 - accuracy: 0.9037 - val_loss: 0.2451 - val_accuracy: 0.8498 - 487ms/epoch - 486us/step
+Epoch 5/5
+1002/1002 - 0s - loss: 0.1815 - accuracy: 0.9021 - val_loss: 0.1463 - val_accuracy: 0.9865 - 496ms/epoch - 495us/step
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00011 ################
+client-1: 0.8630045116449213
+client-2: 0.8116963915387806
+client-3: 0.6859375
+client-4: 0.7838717067583046
+==============================================
+Average F1 Score:  0.7861275274855016
+Std_dev F1 Score:  0.06443401244125954
+New Max F1 Score: 0.7861275274855016
+Current Max F1 Score: 0.7861275274855016
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Batch Size : 74
+Epoch 1/2
+319/319 - 0s - loss: 0.1191 - accuracy: 0.9603 - val_loss: 0.1174 - val_accuracy: 0.9527 - 280ms/epoch - 879us/step
+Epoch 2/2
+319/319 - 0s - loss: 0.0967 - accuracy: 0.9658 - val_loss: 0.1085 - val_accuracy: 0.9649 - 106ms/epoch - 333us/step
+Training client in folder:  ../clients/client-4/
+Batch Size : 36310
+11/11 - 0s - loss: 0.2998 - accuracy: 0.8876 - val_loss: 0.2321 - val_accuracy: 0.9165 - 242ms/epoch - 22ms/step
+
+################ Round: 00012 ################
+client-1: 0.5720352980038695
+client-2: 0.044400452488687785
+client-3: 0.889967637540453
+client-4: 0.8726033909047695
+==============================================
+Average F1 Score:  0.5947516947344449
+Std_dev F1 Score:  0.3419636466327362
+Stop counter: 1
+Current Max F1 Score: 0.7861275274855016
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 51868
+11/11 - 0s - loss: 0.4034 - accuracy: 0.7972 - val_loss: 0.5300 - val_accuracy: 0.7748 - 270ms/epoch - 25ms/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 121
+Epoch 1/5
+962/962 - 1s - loss: 0.4059 - accuracy: 0.7818 - val_loss: 0.4757 - val_accuracy: 0.7646 - 535ms/epoch - 556us/step
+Epoch 2/5
+962/962 - 0s - loss: 0.3714 - accuracy: 0.8059 - val_loss: 0.4114 - val_accuracy: 0.7354 - 328ms/epoch - 341us/step
+Epoch 3/5
+962/962 - 0s - loss: 0.3604 - accuracy: 0.8219 - val_loss: 0.3909 - val_accuracy: 0.7377 - 358ms/epoch - 372us/step
+Epoch 4/5
+962/962 - 0s - loss: 0.3467 - accuracy: 0.8296 - val_loss: 0.3026 - val_accuracy: 0.8458 - 364ms/epoch - 379us/step
+Epoch 5/5
+962/962 - 0s - loss: 0.3432 - accuracy: 0.8329 - val_loss: 0.3233 - val_accuracy: 0.7968 - 402ms/epoch - 418us/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00013 ################
+client-1: 0.6547597461468722
+client-2: 0.2188449848024316
+client-3: 0.5387618516452872
+client-4: 0.8358151228002321
+==============================================
+Average F1 Score:  0.5620454263487058
+Std_dev F1 Score:  0.2246522088247324
+Stop counter: 2
+Current Max F1 Score: 0.7861275274855016
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Batch Size : 148
+Epoch 1/4
+786/786 - 1s - loss: 0.3797 - accuracy: 0.8034 - val_loss: 0.3381 - val_accuracy: 0.7315 - 578ms/epoch - 735us/step
+Epoch 2/4
+786/786 - 0s - loss: 0.3608 - accuracy: 0.8196 - val_loss: 0.3153 - val_accuracy: 0.9363 - 336ms/epoch - 427us/step
+Epoch 3/4
+786/786 - 0s - loss: 0.3491 - accuracy: 0.8211 - val_loss: 0.3160 - val_accuracy: 0.9268 - 376ms/epoch - 478us/step
+Epoch 4/4
+786/786 - 0s - loss: 0.3407 - accuracy: 0.8361 - val_loss: 0.3141 - val_accuracy: 0.9104 - 348ms/epoch - 443us/step
+Training client in folder:  ../clients/client-3/
+Batch Size : 2357
+11/11 - 0s - loss: 0.4075 - accuracy: 0.8778 - val_loss: 0.7500 - val_accuracy: 0.7263 - 187ms/epoch - 17ms/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00014 ################
+client-1: 0.04431435281304244
+client-2: 0.21628189550425272
+client-3: 0.3469387755102041
+client-4: 0.7383014518038508
+==============================================
+Average F1 Score:  0.33645911890783753
+Std_dev F1 Score:  0.2556258071338805
+Stop counter: 3
+Current Max F1 Score: 0.7861275274855016
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 542
+Epoch 1/5
+957/957 - 1s - loss: 0.2238 - accuracy: 0.8860 - val_loss: 0.1913 - val_accuracy: 0.8695 - 674ms/epoch - 704us/step
+Epoch 2/5
+957/957 - 1s - loss: 0.1932 - accuracy: 0.8995 - val_loss: 0.2054 - val_accuracy: 0.8671 - 507ms/epoch - 530us/step
+Epoch 3/5
+957/957 - 1s - loss: 0.1820 - accuracy: 0.9045 - val_loss: 0.1685 - val_accuracy: 0.8680 - 603ms/epoch - 630us/step
+Epoch 4/5
+957/957 - 1s - loss: 0.1753 - accuracy: 0.9059 - val_loss: 0.1328 - val_accuracy: 0.9839 - 536ms/epoch - 560us/step
+Epoch 5/5
+957/957 - 1s - loss: 0.1692 - accuracy: 0.9131 - val_loss: 0.1263 - val_accuracy: 0.9826 - 544ms/epoch - 569us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.4394 - accuracy: 0.8415 - val_loss: 0.6733 - val_accuracy: 0.7514 - 203ms/epoch - 18ms/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00015 ################
+client-1: 0.6377084876647137
+client-2: 0.9095683064329292
+client-3: 0.20919387075283144
+client-4: 0.7893271197999545
+==============================================
+Average F1 Score:  0.6364494461626071
+Std_dev F1 Score:  0.26481805397119806
+Stop counter: 4
+Current Max F1 Score: 0.7861275274855016
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Batch Size : 23
+Epoch 1/5
+1025/1025 - 1s - loss: 0.1162 - accuracy: 0.9582 - val_loss: 0.1060 - val_accuracy: 0.9546 - 571ms/epoch - 557us/step
+Epoch 2/5
+1025/1025 - 0s - loss: 0.0940 - accuracy: 0.9654 - val_loss: 0.0950 - val_accuracy: 0.9607 - 353ms/epoch - 344us/step
+Epoch 3/5
+1025/1025 - 0s - loss: 0.0905 - accuracy: 0.9667 - val_loss: 0.0959 - val_accuracy: 0.9607 - 350ms/epoch - 341us/step
+Epoch 4/5
+1025/1025 - 0s - loss: 0.0826 - accuracy: 0.9706 - val_loss: 0.1019 - val_accuracy: 0.9569 - 351ms/epoch - 342us/step
+Epoch 5/5
+1025/1025 - 0s - loss: 0.0786 - accuracy: 0.9711 - val_loss: 0.0922 - val_accuracy: 0.9603 - 325ms/epoch - 317us/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00016 ################
+client-1: 0.3291047682635064
+client-2: 0.6464587011967824
+client-3: 0.9166666666666666
+client-4: 0.8253067356648026
+==============================================
+Average F1 Score:  0.6793842179479396
+Std_dev F1 Score:  0.2243747558056296
+Stop counter: 5
+Current Max F1 Score: 0.7861275274855016
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 773
+Epoch 1/4
+672/672 - 1s - loss: 0.2197 - accuracy: 0.8820 - val_loss: 0.3358 - val_accuracy: 0.8660 - 566ms/epoch - 842us/step
+Epoch 2/4
+672/672 - 0s - loss: 0.1883 - accuracy: 0.8965 - val_loss: 0.4585 - val_accuracy: 0.7413 - 435ms/epoch - 647us/step
+Epoch 3/4
+672/672 - 0s - loss: 0.1791 - accuracy: 0.9051 - val_loss: 0.1597 - val_accuracy: 0.9311 - 392ms/epoch - 583us/step
+Epoch 4/4
+672/672 - 0s - loss: 0.1730 - accuracy: 0.9041 - val_loss: 0.1590 - val_accuracy: 0.9208 - 366ms/epoch - 545us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.4526 - accuracy: 0.7363 - val_loss: 0.8174 - val_accuracy: 0.7450 - 198ms/epoch - 18ms/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00017 ################
+client-1: 0.5882008276266159
+client-2: 0.805024002104294
+client-3: 0.7593880389429764
+client-4: 0.7382537791173104
+==============================================
+Average F1 Score:  0.7227166619477992
+Std_dev F1 Score:  0.08132527255936883
+Stop counter: 6
+Current Max F1 Score: 0.7861275274855016
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 518
+Epoch 1/5
+1002/1002 - 1s - loss: 0.1985 - accuracy: 0.8961 - val_loss: 0.3400 - val_accuracy: 0.8250 - 676ms/epoch - 675us/step
+Epoch 2/5
+1002/1002 - 1s - loss: 0.1769 - accuracy: 0.9077 - val_loss: 0.1391 - val_accuracy: 0.9665 - 578ms/epoch - 577us/step
+Epoch 3/5
+1002/1002 - 1s - loss: 0.1668 - accuracy: 0.9117 - val_loss: 0.1841 - val_accuracy: 0.8688 - 525ms/epoch - 524us/step
+Epoch 4/5
+1002/1002 - 1s - loss: 0.1603 - accuracy: 0.9184 - val_loss: 0.1215 - val_accuracy: 0.9854 - 517ms/epoch - 516us/step
+Epoch 5/5
+1002/1002 - 1s - loss: 0.1569 - accuracy: 0.9210 - val_loss: 0.1048 - val_accuracy: 0.9832 - 558ms/epoch - 557us/step
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00018 ################
+client-1: 0.8380732931409993
+client-2: 0.8078689423538282
+client-3: 0.11141753998896856
+client-4: 0.7443003807779438
+==============================================
+Average F1 Score:  0.6254150390654349
+Std_dev F1 Score:  0.29868047868190173
+Stop counter: 7
+Current Max F1 Score: 0.7861275274855016
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Batch Size : 23
+Epoch 1/5
+1025/1025 - 0s - loss: 0.1102 - accuracy: 0.9591 - val_loss: 0.0995 - val_accuracy: 0.9634 - 490ms/epoch - 478us/step
+Epoch 2/5
+1025/1025 - 0s - loss: 0.0885 - accuracy: 0.9675 - val_loss: 0.0871 - val_accuracy: 0.9691 - 330ms/epoch - 322us/step
+Epoch 3/5
+1025/1025 - 0s - loss: 0.0878 - accuracy: 0.9681 - val_loss: 0.1128 - val_accuracy: 0.9534 - 325ms/epoch - 317us/step
+Epoch 4/5
+1025/1025 - 0s - loss: 0.0788 - accuracy: 0.9724 - val_loss: 0.0885 - val_accuracy: 0.9622 - 357ms/epoch - 348us/step
+Epoch 5/5
+1025/1025 - 0s - loss: 0.0750 - accuracy: 0.9729 - val_loss: 0.0806 - val_accuracy: 0.9679 - 329ms/epoch - 321us/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00019 ################
+client-1: 0.41088763743631
+client-2: 0.6372881355932203
+client-3: 0.9241214057507987
+client-4: 0.8297783120404797
+==============================================
+Average F1 Score:  0.7005188727052022
+Std_dev F1 Score:  0.19658997558420055
+Stop counter: 8
+Current Max F1 Score: 0.7861275274855016
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 880
+Epoch 1/3
+590/590 - 1s - loss: 0.1959 - accuracy: 0.8962 - val_loss: 0.1716 - val_accuracy: 0.8692 - 519ms/epoch - 879us/step
+Epoch 2/3
+590/590 - 0s - loss: 0.1758 - accuracy: 0.9085 - val_loss: 0.1296 - val_accuracy: 0.9828 - 396ms/epoch - 671us/step
+Epoch 3/3
+590/590 - 0s - loss: 0.1674 - accuracy: 0.9089 - val_loss: 0.2193 - val_accuracy: 0.8679 - 391ms/epoch - 663us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.4633 - accuracy: 0.7385 - val_loss: 0.7324 - val_accuracy: 0.7430 - 201ms/epoch - 18ms/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00020 ################
+client-1: 0.6742994049606252
+client-2: 0.861159420289855
+client-3: 0.8485780169100692
+client-4: 0.780960596757415
+==============================================
+Average F1 Score:  0.7912493597294911
+Std_dev F1 Score:  0.07408971262195807
+New Max F1 Score: 0.7912493597294911
+Current Max F1 Score: 0.7912493597294911
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 1591
+Epoch 1/2
+327/327 - 0s - loss: 0.2030 - accuracy: 0.8799 - val_loss: 0.1978 - val_accuracy: 0.8991 - 454ms/epoch - 1ms/step
+Epoch 2/2
+327/327 - 0s - loss: 0.1734 - accuracy: 0.8958 - val_loss: 0.1573 - val_accuracy: 0.9355 - 257ms/epoch - 786us/step
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+Batch Size : 36310
+11/11 - 0s - loss: 0.3133 - accuracy: 0.8815 - val_loss: 0.2387 - val_accuracy: 0.9040 - 242ms/epoch - 22ms/step
+
+################ Round: 00021 ################
+client-1: 0.9717531736547687
+client-2: 0.2174361619809131
+client-3: 0.5221785513756316
+client-4: 0.8745504205089375
+==============================================
+Average F1 Score:  0.6464795768800627
+Std_dev F1 Score:  0.2988930491338489
+Stop counter: 1
+Current Max F1 Score: 0.7912493597294911
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Batch Size : 148
+Epoch 1/4
+786/786 - 0s - loss: 0.3699 - accuracy: 0.8125 - val_loss: 0.3076 - val_accuracy: 0.9387 - 474ms/epoch - 603us/step
+Epoch 2/4
+786/786 - 0s - loss: 0.3460 - accuracy: 0.8289 - val_loss: 0.3844 - val_accuracy: 0.7434 - 298ms/epoch - 379us/step
+Epoch 3/4
+786/786 - 0s - loss: 0.3335 - accuracy: 0.8379 - val_loss: 0.5148 - val_accuracy: 0.7766 - 296ms/epoch - 377us/step
+Epoch 4/4
+786/786 - 0s - loss: 0.3286 - accuracy: 0.8425 - val_loss: 0.2873 - val_accuracy: 0.9217 - 299ms/epoch - 380us/step
+Training client in folder:  ../clients/client-3/
+Batch Size : 2357
+11/11 - 0s - loss: 0.3529 - accuracy: 0.8867 - val_loss: 1.0501 - val_accuracy: 0.7286 - 194ms/epoch - 18ms/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00022 ################
+client-1: 0.09493775933609959
+client-2: 0.02040816326530612
+client-3: 0.4657210401891253
+client-4: 0.8018223234624146
+==============================================
+Average F1 Score:  0.3457223215632364
+Std_dev F1 Score:  0.3127095707061238
+Stop counter: 2
+Current Max F1 Score: 0.7912493597294911
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 51868
+11/11 - 0s - loss: 0.3900 - accuracy: 0.8581 - val_loss: 0.4012 - val_accuracy: 0.8516 - 271ms/epoch - 25ms/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 118
+Epoch 1/5
+986/986 - 1s - loss: 0.3585 - accuracy: 0.8241 - val_loss: 0.3103 - val_accuracy: 0.8730 - 632ms/epoch - 640us/step
+Epoch 2/5
+986/986 - 0s - loss: 0.3379 - accuracy: 0.8378 - val_loss: 0.6170 - val_accuracy: 0.7309 - 359ms/epoch - 364us/step
+Epoch 3/5
+986/986 - 0s - loss: 0.3291 - accuracy: 0.8473 - val_loss: 0.2950 - val_accuracy: 0.9559 - 351ms/epoch - 356us/step
+Epoch 4/5
+986/986 - 0s - loss: 0.3176 - accuracy: 0.8502 - val_loss: 0.6506 - val_accuracy: 0.7714 - 388ms/epoch - 394us/step
+Epoch 5/5
+986/986 - 0s - loss: 0.3148 - accuracy: 0.8567 - val_loss: 0.2932 - val_accuracy: 0.8263 - 376ms/epoch - 382us/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00023 ################
+client-1: 0.3165842228586306
+client-2: 0.2587867742775319
+client-3: 0.28083989501312334
+client-4: 0.8233270256322037
+==============================================
+Average F1 Score:  0.4198844794453724
+Std_dev F1 Score:  0.23383899276793077
+Stop counter: 3
+Current Max F1 Score: 0.7912493597294911
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 51868
+11/11 - 0s - loss: 0.4367 - accuracy: 0.8060 - val_loss: 0.6110 - val_accuracy: 0.7865 - 266ms/epoch - 24ms/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 156
+Epoch 1/4
+746/746 - 0s - loss: 0.3384 - accuracy: 0.8379 - val_loss: 0.3070 - val_accuracy: 0.9520 - 480ms/epoch - 644us/step
+Epoch 2/4
+746/746 - 0s - loss: 0.3327 - accuracy: 0.8422 - val_loss: 0.2846 - val_accuracy: 0.8698 - 283ms/epoch - 379us/step
+Epoch 3/4
+746/746 - 0s - loss: 0.3255 - accuracy: 0.8516 - val_loss: 0.2619 - val_accuracy: 0.9391 - 270ms/epoch - 362us/step
+Epoch 4/4
+746/746 - 0s - loss: 0.3144 - accuracy: 0.8522 - val_loss: 0.2889 - val_accuracy: 0.9340 - 270ms/epoch - 361us/step
+Training client in folder:  ../clients/client-3/
+Batch Size : 51
+Epoch 1/2
+463/463 - 0s - loss: 0.1084 - accuracy: 0.9634 - val_loss: 0.1640 - val_accuracy: 0.9176 - 356ms/epoch - 768us/step
+Epoch 2/2
+463/463 - 0s - loss: 0.0832 - accuracy: 0.9700 - val_loss: 0.0816 - val_accuracy: 0.9691 - 204ms/epoch - 442us/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00024 ################
+client-1: 0.04648253612930836
+client-2: 0.6681605611847233
+client-3: 0.92
+client-4: 0.8124822855847175
+==============================================
+Average F1 Score:  0.6117813457246872
+Std_dev F1 Score:  0.33838623131335654
+Stop counter: 4
+Current Max F1 Score: 0.7912493597294911
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 518
+Epoch 1/5
+1002/1002 - 1s - loss: 0.1807 - accuracy: 0.9087 - val_loss: 0.2817 - val_accuracy: 0.8446 - 689ms/epoch - 688us/step
+Epoch 2/5
+1002/1002 - 1s - loss: 0.1598 - accuracy: 0.9221 - val_loss: 0.1313 - val_accuracy: 0.9829 - 507ms/epoch - 506us/step
+Epoch 3/5
+1002/1002 - 0s - loss: 0.1501 - accuracy: 0.9313 - val_loss: 0.2299 - val_accuracy: 0.8818 - 498ms/epoch - 497us/step
+Epoch 4/5
+1002/1002 - 1s - loss: 0.1451 - accuracy: 0.9349 - val_loss: 0.1172 - val_accuracy: 0.9852 - 522ms/epoch - 521us/step
+Epoch 5/5
+1002/1002 - 0s - loss: 0.1391 - accuracy: 0.9393 - val_loss: 0.0941 - val_accuracy: 0.9810 - 499ms/epoch - 498us/step
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00025 ################
+client-1: 0.21859866364249372
+client-2: 0.6490802506569638
+client-3: 0.6847662141779789
+client-4: 0.8387957208932777
+==============================================
+Average F1 Score:  0.5978102123426785
+Std_dev F1 Score:  0.23025278341581054
+Stop counter: 5
+Current Max F1 Score: 0.7912493597294911
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 518
+Epoch 1/5
+1002/1002 - 1s - loss: 0.1671 - accuracy: 0.9186 - val_loss: 0.1077 - val_accuracy: 0.9808 - 663ms/epoch - 661us/step
+Epoch 2/5
+1002/1002 - 1s - loss: 0.1517 - accuracy: 0.9298 - val_loss: 0.1039 - val_accuracy: 0.9809 - 502ms/epoch - 501us/step
+Epoch 3/5
+1002/1002 - 0s - loss: 0.1452 - accuracy: 0.9359 - val_loss: 0.1521 - val_accuracy: 0.9232 - 473ms/epoch - 472us/step
+Epoch 4/5
+1002/1002 - 1s - loss: 0.1378 - accuracy: 0.9398 - val_loss: 0.0970 - val_accuracy: 0.9832 - 594ms/epoch - 593us/step
+Epoch 5/5
+1002/1002 - 0s - loss: 0.1292 - accuracy: 0.9467 - val_loss: 0.0876 - val_accuracy: 0.9791 - 480ms/epoch - 479us/step
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00026 ################
+client-1: 0.9639820353966592
+client-2: 0.2216624685138539
+client-3: 0.02872260015117158
+client-4: 0.8211047465530641
+==============================================
+Average F1 Score:  0.5088679626536872
+Std_dev F1 Score:  0.39295266681411495
+Stop counter: 6
+Current Max F1 Score: 0.7912493597294911
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.4213 - accuracy: 0.7820 - val_loss: 0.7278 - val_accuracy: 0.7602 - 200ms/epoch - 18ms/step
+Training client in folder:  ../clients/client-3/
+Batch Size : 24
+Epoch 1/5
+983/983 - 1s - loss: 0.1090 - accuracy: 0.9613 - val_loss: 0.4829 - val_accuracy: 0.8550 - 513ms/epoch - 522us/step
+Epoch 2/5
+983/983 - 0s - loss: 0.0867 - accuracy: 0.9675 - val_loss: 0.0841 - val_accuracy: 0.9718 - 313ms/epoch - 318us/step
+Epoch 3/5
+983/983 - 0s - loss: 0.0824 - accuracy: 0.9697 - val_loss: 0.0800 - val_accuracy: 0.9664 - 316ms/epoch - 321us/step
+Epoch 4/5
+983/983 - 0s - loss: 0.0793 - accuracy: 0.9712 - val_loss: 0.0902 - val_accuracy: 0.9649 - 342ms/epoch - 348us/step
+Epoch 5/5
+983/983 - 0s - loss: 0.0757 - accuracy: 0.9729 - val_loss: 0.0818 - val_accuracy: 0.9656 - 335ms/epoch - 341us/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00027 ################
+client-1: 0.27140997830802605
+client-2: 0.6619472459270752
+client-3: 0.9149188761377127
+client-4: 0.8116267956034071
+==============================================
+Average F1 Score:  0.6649757239940552
+Std_dev F1 Score:  0.24437741505941232
+Stop counter: 7
+Current Max F1 Score: 0.7912493597294911
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 711
+Epoch 1/3
+730/730 - 1s - loss: 0.1654 - accuracy: 0.9202 - val_loss: 0.1056 - val_accuracy: 0.9829 - 591ms/epoch - 809us/step
+Epoch 2/3
+730/730 - 0s - loss: 0.1467 - accuracy: 0.9334 - val_loss: 0.1136 - val_accuracy: 0.9847 - 420ms/epoch - 575us/step
+Epoch 3/3
+730/730 - 0s - loss: 0.1384 - accuracy: 0.9384 - val_loss: 0.1242 - val_accuracy: 0.9860 - 415ms/epoch - 568us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.4139 - accuracy: 0.7572 - val_loss: 0.6933 - val_accuracy: 0.7550 - 200ms/epoch - 18ms/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00028 ################
+client-1: 0.8996228702269513
+client-2: 0.8889858868034337
+client-3: 0.8392785571142285
+client-4: 0.7962852782161057
+==============================================
+Average F1 Score:  0.8560431480901799
+Std_dev F1 Score:  0.04134147656387483
+New Max F1 Score: 0.8560431480901799
+Current Max F1 Score: 0.8560431480901799
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Batch Size : 2357
+11/11 - 0s - loss: 0.2187 - accuracy: 0.9203 - val_loss: 1.8694 - val_accuracy: 0.7302 - 194ms/epoch - 18ms/step
+Training client in folder:  ../clients/client-4/
+Batch Size : 1788
+Epoch 1/2
+204/204 - 0s - loss: 0.1728 - accuracy: 0.9371 - val_loss: 0.1419 - val_accuracy: 0.9495 - 340ms/epoch - 2ms/step
+Epoch 2/2
+204/204 - 0s - loss: 0.1357 - accuracy: 0.9515 - val_loss: 0.1455 - val_accuracy: 0.9486 - 161ms/epoch - 792us/step
+
+################ Round: 00029 ################
+client-1: 0.1804272608957877
+client-2: 0.019822796215647996
+client-3: 0.3164721141374838
+client-4: 0.8182322539200514
+==============================================
+Average F1 Score:  0.3337386062922427
+Std_dev F1 Score:  0.2987807435170251
+Stop counter: 1
+Current Max F1 Score: 0.8560431480901799
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 1139
+Epoch 1/2
+456/456 - 1s - loss: 0.1610 - accuracy: 0.9180 - val_loss: 0.1407 - val_accuracy: 0.8691 - 543ms/epoch - 1ms/step
+Epoch 2/2
+456/456 - 0s - loss: 0.1468 - accuracy: 0.9315 - val_loss: 0.1474 - val_accuracy: 0.9350 - 338ms/epoch - 742us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 118
+Epoch 1/5
+986/986 - 1s - loss: 0.3393 - accuracy: 0.8418 - val_loss: 0.2647 - val_accuracy: 0.9536 - 541ms/epoch - 549us/step
+Epoch 2/5
+986/986 - 0s - loss: 0.3207 - accuracy: 0.8558 - val_loss: 0.3104 - val_accuracy: 0.9496 - 359ms/epoch - 364us/step
+Epoch 3/5
+986/986 - 0s - loss: 0.3127 - accuracy: 0.8543 - val_loss: 0.2324 - val_accuracy: 0.9596 - 370ms/epoch - 375us/step
+Epoch 4/5
+986/986 - 0s - loss: 0.3012 - accuracy: 0.8705 - val_loss: 0.3025 - val_accuracy: 0.8268 - 373ms/epoch - 379us/step
+Epoch 5/5
+986/986 - 0s - loss: 0.2931 - accuracy: 0.8738 - val_loss: 0.4185 - val_accuracy: 0.7316 - 386ms/epoch - 392us/step
+Training client in folder:  ../clients/client-3/
+Batch Size : 2357
+11/11 - 0s - loss: 0.3927 - accuracy: 0.8792 - val_loss: 1.0562 - val_accuracy: 0.7290 - 192ms/epoch - 17ms/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00030 ################
+client-1: 0.030560622225281345
+client-2: 0.04190193164933135
+client-3: 0.02135774218154081
+client-4: 0.8055621162021729
+==============================================
+Average F1 Score:  0.2248456030645816
+Std_dev F1 Score:  0.33535578824885975
+Stop counter: 2
+Current Max F1 Score: 0.8560431480901799
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 953
+Epoch 1/3
+545/545 - 1s - loss: 0.1574 - accuracy: 0.9280 - val_loss: 0.1077 - val_accuracy: 0.9843 - 545ms/epoch - 1ms/step
+Epoch 2/3
+545/545 - 0s - loss: 0.1372 - accuracy: 0.9383 - val_loss: 0.0999 - val_accuracy: 0.9769 - 338ms/epoch - 620us/step
+Epoch 3/3
+545/545 - 0s - loss: 0.1332 - accuracy: 0.9412 - val_loss: 0.0949 - val_accuracy: 0.9765 - 315ms/epoch - 578us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.4898 - accuracy: 0.8619 - val_loss: 0.5652 - val_accuracy: 0.7649 - 201ms/epoch - 18ms/step
+Training client in folder:  ../clients/client-3/
+Batch Size : 24
+Epoch 1/5
+983/983 - 1s - loss: 0.0996 - accuracy: 0.9649 - val_loss: 0.4420 - val_accuracy: 0.8943 - 526ms/epoch - 535us/step
+Epoch 2/5
+983/983 - 0s - loss: 0.0843 - accuracy: 0.9692 - val_loss: 0.0776 - val_accuracy: 0.9744 - 320ms/epoch - 326us/step
+Epoch 3/5
+983/983 - 0s - loss: 0.0790 - accuracy: 0.9723 - val_loss: 0.0758 - val_accuracy: 0.9679 - 303ms/epoch - 309us/step
+Epoch 4/5
+983/983 - 0s - loss: 0.0774 - accuracy: 0.9726 - val_loss: 0.0835 - val_accuracy: 0.9695 - 307ms/epoch - 313us/step
+Epoch 5/5
+983/983 - 0s - loss: 0.0735 - accuracy: 0.9737 - val_loss: 0.0804 - val_accuracy: 0.9683 - 331ms/epoch - 337us/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00031 ################
+client-1: 0.18208853505157832
+client-2: 0.6296183824273712
+client-3: 0.9227674979887369
+client-4: 0.8151788775860098
+==============================================
+Average F1 Score:  0.637413323263424
+Std_dev F1 Score:  0.2830234182888319
+Stop counter: 3
+Current Max F1 Score: 0.8560431480901799
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 634
+Epoch 1/5
+819/819 - 1s - loss: 0.1503 - accuracy: 0.9341 - val_loss: 0.1109 - val_accuracy: 0.9845 - 688ms/epoch - 840us/step
+Epoch 2/5
+819/819 - 1s - loss: 0.1366 - accuracy: 0.9424 - val_loss: 0.0917 - val_accuracy: 0.9807 - 534ms/epoch - 652us/step
+Epoch 3/5
+819/819 - 0s - loss: 0.1282 - accuracy: 0.9491 - val_loss: 0.1048 - val_accuracy: 0.9823 - 486ms/epoch - 594us/step
+Epoch 4/5
+819/819 - 0s - loss: 0.1246 - accuracy: 0.9521 - val_loss: 0.1125 - val_accuracy: 0.9652 - 447ms/epoch - 546us/step
+Epoch 5/5
+819/819 - 0s - loss: 0.1159 - accuracy: 0.9580 - val_loss: 0.0903 - val_accuracy: 0.9855 - 454ms/epoch - 555us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.4143 - accuracy: 0.7536 - val_loss: 0.8587 - val_accuracy: 0.7490 - 204ms/epoch - 19ms/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00032 ################
+client-1: 0.8936382909047036
+client-2: 0.8908859432337303
+client-3: 0.7807807807807807
+client-4: 0.8031817468208697
+==============================================
+Average F1 Score:  0.842121690435021
+Std_dev F1 Score:  0.05077139667384647
+Stop counter: 4
+Current Max F1 Score: 0.8560431480901799
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Batch Size : 107
+Epoch 1/2
+221/221 - 0s - loss: 0.0878 - accuracy: 0.9693 - val_loss: 0.0806 - val_accuracy: 0.9679 - 278ms/epoch - 1ms/step
+Epoch 2/2
+221/221 - 0s - loss: 0.0696 - accuracy: 0.9759 - val_loss: 0.0699 - val_accuracy: 0.9763 - 118ms/epoch - 534us/step
+Training client in folder:  ../clients/client-4/
+Batch Size : 36310
+11/11 - 0s - loss: 0.2854 - accuracy: 0.8957 - val_loss: 0.2121 - val_accuracy: 0.9148 - 246ms/epoch - 22ms/step
+
+################ Round: 00033 ################
+client-1: 0.4814710042432815
+client-2: 0.631866464339909
+client-3: 0.9280835676978706
+client-4: 0.8403525408601551
+==============================================
+Average F1 Score:  0.720443394285304
+Std_dev F1 Score:  0.1749616534901704
+Stop counter: 5
+Current Max F1 Score: 0.8560431480901799
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 999
+Epoch 1/3
+520/520 - 1s - loss: 0.1474 - accuracy: 0.9350 - val_loss: 0.1176 - val_accuracy: 0.9618 - 552ms/epoch - 1ms/step
+Epoch 2/3
+520/520 - 0s - loss: 0.1331 - accuracy: 0.9459 - val_loss: 0.0857 - val_accuracy: 0.9799 - 388ms/epoch - 745us/step
+Epoch 3/3
+520/520 - 0s - loss: 0.1261 - accuracy: 0.9486 - val_loss: 0.0830 - val_accuracy: 0.9839 - 379ms/epoch - 729us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.4329 - accuracy: 0.7493 - val_loss: 0.7250 - val_accuracy: 0.7589 - 198ms/epoch - 18ms/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00034 ################
+client-1: 0.9275263810769937
+client-2: 0.8944988696307461
+client-3: 0.7762637362637362
+client-4: 0.8159502683173051
+==============================================
+Average F1 Score:  0.8535598138221954
+Std_dev F1 Score:  0.06028312550159036
+Stop counter: 6
+Current Max F1 Score: 0.8560431480901799
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Batch Size : 105
+Epoch 1/2
+225/225 - 0s - loss: 0.0876 - accuracy: 0.9694 - val_loss: 0.0799 - val_accuracy: 0.9668 - 261ms/epoch - 1ms/step
+Epoch 2/2
+225/225 - 0s - loss: 0.0680 - accuracy: 0.9765 - val_loss: 0.0699 - val_accuracy: 0.9779 - 80ms/epoch - 354us/step
+Training client in folder:  ../clients/client-4/
+Batch Size : 36310
+11/11 - 0s - loss: 0.2746 - accuracy: 0.9012 - val_loss: 0.2057 - val_accuracy: 0.9175 - 234ms/epoch - 21ms/step
+
+################ Round: 00035 ################
+client-1: 0.7281865441446106
+client-2: 0.6308656957928802
+client-3: 0.9285140562248996
+client-4: 0.845372868626742
+==============================================
+Average F1 Score:  0.7832347911972831
+Std_dev F1 Score:  0.11315239309391777
+Stop counter: 7
+Current Max F1 Score: 0.8560431480901799
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 51868
+11/11 - 0s - loss: 0.3260 - accuracy: 0.8822 - val_loss: 0.3230 - val_accuracy: 0.8281 - 284ms/epoch - 26ms/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 314
+Epoch 1/2
+371/371 - 0s - loss: 0.3311 - accuracy: 0.8552 - val_loss: 0.4688 - val_accuracy: 0.7845 - 331ms/epoch - 892us/step
+Epoch 2/2
+371/371 - 0s - loss: 0.3222 - accuracy: 0.8520 - val_loss: 0.3051 - val_accuracy: 0.8050 - 146ms/epoch - 393us/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00036 ################
+client-1: 0.8492891712038717
+client-2: 0.9398703524327546
+client-3: 0.9101892871526379
+client-4: 0.8306319132625123
+==============================================
+Average F1 Score:  0.8824951810129441
+Std_dev F1 Score:  0.0443038131528271
+New Max F1 Score: 0.8824951810129441
+Current Max F1 Score: 0.8824951810129441
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 51868
+11/11 - 0s - loss: 0.3096 - accuracy: 0.8684 - val_loss: 0.2736 - val_accuracy: 0.8473 - 284ms/epoch - 26ms/step
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+Batch Size : 2135
+Epoch 1/2
+171/171 - 0s - loss: 0.1693 - accuracy: 0.9392 - val_loss: 0.1484 - val_accuracy: 0.9460 - 357ms/epoch - 2ms/step
+Epoch 2/2
+171/171 - 0s - loss: 0.1412 - accuracy: 0.9505 - val_loss: 0.1501 - val_accuracy: 0.9484 - 148ms/epoch - 868us/step
+
+################ Round: 00037 ################
+client-1: 0.9074832945693506
+client-2: 0.6428004760015866
+client-3: 0.6026525198938992
+client-4: 0.8930200304056757
+==============================================
+Average F1 Score:  0.7614890802176281
+Std_dev F1 Score:  0.13958038826046898
+Stop counter: 1
+Current Max F1 Score: 0.8824951810129441
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.3799 - accuracy: 0.7574 - val_loss: 0.6669 - val_accuracy: 0.7654 - 209ms/epoch - 19ms/step
+Training client in folder:  ../clients/client-3/
+Batch Size : 59
+Epoch 1/2
+400/400 - 0s - loss: 0.0904 - accuracy: 0.9703 - val_loss: 0.0794 - val_accuracy: 0.9679 - 315ms/epoch - 787us/step
+Epoch 2/2
+400/400 - 0s - loss: 0.0729 - accuracy: 0.9748 - val_loss: 0.0682 - val_accuracy: 0.9782 - 126ms/epoch - 315us/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00038 ################
+client-1: 0.6438849736001269
+client-2: 0.659559902200489
+client-3: 0.92157659488013
+client-4: 0.8367879966657404
+==============================================
+Average F1 Score:  0.7654523668366215
+Std_dev F1 Score:  0.11774484259441007
+Stop counter: 2
+Current Max F1 Score: 0.8824951810129441
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 1452
+Epoch 1/2
+358/358 - 0s - loss: 0.1539 - accuracy: 0.9288 - val_loss: 0.0971 - val_accuracy: 0.9792 - 474ms/epoch - 1ms/step
+Epoch 2/2
+358/358 - 0s - loss: 0.1333 - accuracy: 0.9428 - val_loss: 0.2010 - val_accuracy: 0.8907 - 307ms/epoch - 858us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.3460 - accuracy: 0.8628 - val_loss: 0.4602 - val_accuracy: 0.7815 - 200ms/epoch - 18ms/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00039 ################
+client-1: 0.9201549082337094
+client-2: 0.8999409681227863
+client-3: 0.7137042062415196
+client-4: 0.8076832981962989
+==============================================
+Average F1 Score:  0.8353708451985786
+Std_dev F1 Score:  0.08204725682998656
+Stop counter: 3
+Current Max F1 Score: 0.8824951810129441
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Batch Size : 82
+Epoch 1/2
+288/288 - 0s - loss: 0.0812 - accuracy: 0.9739 - val_loss: 0.0715 - val_accuracy: 0.9706 - 283ms/epoch - 981us/step
+Epoch 2/2
+288/288 - 0s - loss: 0.0703 - accuracy: 0.9770 - val_loss: 0.0678 - val_accuracy: 0.9786 - 111ms/epoch - 386us/step
+Training client in folder:  ../clients/client-4/
+Batch Size : 36310
+11/11 - 0s - loss: 0.2451 - accuracy: 0.9072 - val_loss: 0.1884 - val_accuracy: 0.9281 - 234ms/epoch - 21ms/step
+
+################ Round: 00040 ################
+client-1: 0.6929288520296814
+client-2: 0.6626883193112894
+client-3: 0.9287136598964556
+client-4: 0.8523365505207481
+==============================================
+Average F1 Score:  0.7841668454395436
+Std_dev F1 Score:  0.11025231744985042
+Stop counter: 4
+Current Max F1 Score: 0.8824951810129441
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 51868
+11/11 - 0s - loss: 0.3550 - accuracy: 0.8427 - val_loss: 0.4213 - val_accuracy: 0.8091 - 258ms/epoch - 23ms/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 344
+Epoch 1/2
+339/339 - 0s - loss: 0.3394 - accuracy: 0.8417 - val_loss: 0.4952 - val_accuracy: 0.7754 - 327ms/epoch - 966us/step
+Epoch 2/2
+339/339 - 0s - loss: 0.3187 - accuracy: 0.8498 - val_loss: 0.5390 - val_accuracy: 0.7282 - 143ms/epoch - 423us/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00041 ################
+client-1: 0.8273506298621807
+client-2: 0.6510304219823356
+client-3: 0.924643584521385
+client-4: 0.8402103447316436
+==============================================
+Average F1 Score:  0.8108087452743863
+Std_dev F1 Score:  0.09953086357604106
+Stop counter: 5
+Current Max F1 Score: 0.8824951810129441
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Batch Size : 116
+Epoch 1/5
+1003/1003 - 1s - loss: 0.3318 - accuracy: 0.8506 - val_loss: 0.2606 - val_accuracy: 0.9461 - 567ms/epoch - 566us/step
+Epoch 2/5
+1003/1003 - 0s - loss: 0.3078 - accuracy: 0.8646 - val_loss: 0.2613 - val_accuracy: 0.9558 - 373ms/epoch - 372us/step
+Epoch 3/5
+1003/1003 - 0s - loss: 0.3000 - accuracy: 0.8652 - val_loss: 0.2311 - val_accuracy: 0.9609 - 355ms/epoch - 354us/step
+Epoch 4/5
+1003/1003 - 0s - loss: 0.2856 - accuracy: 0.8807 - val_loss: 0.2287 - val_accuracy: 0.9498 - 358ms/epoch - 357us/step
+Epoch 5/5
+1003/1003 - 0s - loss: 0.2751 - accuracy: 0.8905 - val_loss: 0.2574 - val_accuracy: 0.9459 - 379ms/epoch - 378us/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00042 ################
+client-1: 0.6052643948296123
+client-2: 0.9454629486981975
+client-3: 0.876385336743393
+client-4: 0.8421694426738353
+==============================================
+Average F1 Score:  0.8173205307362594
+Std_dev F1 Score:  0.1279593722533955
+Stop counter: 6
+Current Max F1 Score: 0.8824951810129441
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 518
+Epoch 1/5
+1002/1002 - 1s - loss: 0.1383 - accuracy: 0.9461 - val_loss: 0.3780 - val_accuracy: 0.8419 - 700ms/epoch - 699us/step
+Epoch 2/5
+1002/1002 - 1s - loss: 0.1250 - accuracy: 0.9517 - val_loss: 0.0900 - val_accuracy: 0.9817 - 549ms/epoch - 548us/step
+Epoch 3/5
+1002/1002 - 1s - loss: 0.1180 - accuracy: 0.9575 - val_loss: 0.0783 - val_accuracy: 0.9803 - 535ms/epoch - 534us/step
+Epoch 4/5
+1002/1002 - 0s - loss: 0.1112 - accuracy: 0.9615 - val_loss: 0.0837 - val_accuracy: 0.9833 - 489ms/epoch - 488us/step
+Epoch 5/5
+1002/1002 - 1s - loss: 0.1025 - accuracy: 0.9659 - val_loss: 0.0686 - val_accuracy: 0.9820 - 545ms/epoch - 544us/step
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00043 ################
+client-1: 0.6831224101243141
+client-2: 0.6437170430802905
+client-3: 0.4524512699350266
+client-4: 0.8283068558321298
+==============================================
+Average F1 Score:  0.6518993947429403
+Std_dev F1 Score:  0.13410907350508
+Stop counter: 7
+Current Max F1 Score: 0.8824951810129441
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.3202 - accuracy: 0.8750 - val_loss: 1.3000 - val_accuracy: 0.6981 - 198ms/epoch - 18ms/step
+Training client in folder:  ../clients/client-3/
+Batch Size : 43
+Epoch 1/3
+549/549 - 0s - loss: 0.0916 - accuracy: 0.9701 - val_loss: 0.2543 - val_accuracy: 0.9206 - 359ms/epoch - 653us/step
+Epoch 2/3
+549/549 - 0s - loss: 0.0737 - accuracy: 0.9746 - val_loss: 0.0733 - val_accuracy: 0.9775 - 204ms/epoch - 371us/step
+Epoch 3/3
+549/549 - 0s - loss: 0.0730 - accuracy: 0.9750 - val_loss: 0.1187 - val_accuracy: 0.9275 - 186ms/epoch - 339us/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00044 ################
+client-1: 0.8526618487267774
+client-2: 0.6664136622390892
+client-3: 0.9208747514910537
+client-4: 0.8406976428784549
+==============================================
+Average F1 Score:  0.8201619763338438
+Std_dev F1 Score:  0.09388764891192354
+Stop counter: 8
+Current Max F1 Score: 0.8824951810129441
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Batch Size : 116
+Epoch 1/5
+1003/1003 - 1s - loss: 0.3181 - accuracy: 0.8639 - val_loss: 0.5321 - val_accuracy: 0.7804 - 530ms/epoch - 528us/step
+Epoch 2/5
+1003/1003 - 0s - loss: 0.2978 - accuracy: 0.8739 - val_loss: 0.2670 - val_accuracy: 0.9555 - 401ms/epoch - 400us/step
+Epoch 3/5
+1003/1003 - 0s - loss: 0.2882 - accuracy: 0.8815 - val_loss: 0.2077 - val_accuracy: 0.9615 - 366ms/epoch - 365us/step
+Epoch 4/5
+1003/1003 - 0s - loss: 0.2770 - accuracy: 0.8907 - val_loss: 0.3343 - val_accuracy: 0.8060 - 324ms/epoch - 323us/step
+Epoch 5/5
+1003/1003 - 0s - loss: 0.2707 - accuracy: 0.8924 - val_loss: 0.2583 - val_accuracy: 0.9606 - 396ms/epoch - 395us/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00045 ################
+client-1: 0.6059335698161883
+client-2: 0.9505024748762562
+client-3: 0.9273967107902126
+client-4: 0.8371635469326411
+==============================================
+Average F1 Score:  0.8302490756038245
+Std_dev F1 Score:  0.13625692561242755
+Stop counter: 9
+Current Max F1 Score: 0.8824951810129441
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 518
+Epoch 1/5
+1002/1002 - 1s - loss: 0.1354 - accuracy: 0.9492 - val_loss: 0.1729 - val_accuracy: 0.9188 - 714ms/epoch - 713us/step
+Epoch 2/5
+1002/1002 - 1s - loss: 0.1127 - accuracy: 0.9616 - val_loss: 0.0827 - val_accuracy: 0.9788 - 527ms/epoch - 526us/step
+Epoch 3/5
+1002/1002 - 1s - loss: 0.1070 - accuracy: 0.9631 - val_loss: 0.2738 - val_accuracy: 0.8608 - 514ms/epoch - 513us/step
+Epoch 4/5
+1002/1002 - 1s - loss: 0.1071 - accuracy: 0.9633 - val_loss: 0.0731 - val_accuracy: 0.9840 - 514ms/epoch - 513us/step
+Epoch 5/5
+1002/1002 - 1s - loss: 0.0912 - accuracy: 0.9712 - val_loss: 0.0725 - val_accuracy: 0.9809 - 508ms/epoch - 507us/step
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00046 ################
+client-1: 0.8839324139737664
+client-2: 0.939368453245661
+client-3: 0.7410586552217453
+client-4: 0.8333240581000613
+==============================================
+Average F1 Score:  0.8494208951353085
+Std_dev F1 Score:  0.07294362779601864
+Stop counter: 10
+Current Max F1 Score: 0.8824951810129441
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Batch Size : 91
+Epoch 1/2
+260/260 - 0s - loss: 0.0836 - accuracy: 0.9737 - val_loss: 0.9463 - val_accuracy: 0.7363 - 267ms/epoch - 1ms/step
+Epoch 2/2
+260/260 - 0s - loss: 0.0707 - accuracy: 0.9772 - val_loss: 0.0664 - val_accuracy: 0.9813 - 103ms/epoch - 395us/step
+Training client in folder:  ../clients/client-4/
+Batch Size : 36310
+11/11 - 0s - loss: 0.3097 - accuracy: 0.8953 - val_loss: 0.2290 - val_accuracy: 0.9212 - 251ms/epoch - 23ms/step
+
+################ Round: 00047 ################
+client-1: 0.21009193797979184
+client-2: 0.644788029925187
+client-3: 0.9265944645006017
+client-4: 0.8245921074916728
+==============================================
+Average F1 Score:  0.6515166349743133
+Std_dev F1 Score:  0.27410033232678377
+Stop counter: 11
+Current Max F1 Score: 0.8824951810129441
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 656
+Epoch 1/4
+791/791 - 1s - loss: 0.1276 - accuracy: 0.9536 - val_loss: 0.1005 - val_accuracy: 0.9698 - 646ms/epoch - 817us/step
+Epoch 2/4
+791/791 - 0s - loss: 0.1068 - accuracy: 0.9630 - val_loss: 0.1335 - val_accuracy: 0.9536 - 433ms/epoch - 548us/step
+Epoch 3/4
+791/791 - 0s - loss: 0.0968 - accuracy: 0.9688 - val_loss: 0.0722 - val_accuracy: 0.9833 - 461ms/epoch - 583us/step
+Epoch 4/4
+791/791 - 0s - loss: 0.0988 - accuracy: 0.9679 - val_loss: 0.0686 - val_accuracy: 0.9793 - 423ms/epoch - 534us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.3927 - accuracy: 0.8429 - val_loss: 0.4922 - val_accuracy: 0.7840 - 195ms/epoch - 18ms/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00048 ################
+client-1: 0.9405535159559446
+client-2: 0.9280207617739104
+client-3: 0.8568994889267462
+client-4: 0.8363886974500344
+==============================================
+Average F1 Score:  0.8904656160266589
+Std_dev F1 Score:  0.04463794546866435
+New Max F1 Score: 0.8904656160266589
+Current Max F1 Score: 0.8904656160266589
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Batch Size : 2357
+11/11 - 0s - loss: 0.2474 - accuracy: 0.9328 - val_loss: 0.4186 - val_accuracy: 0.9095 - 189ms/epoch - 17ms/step
+Training client in folder:  ../clients/client-4/
+Batch Size : 2214
+Epoch 1/2
+165/165 - 0s - loss: 0.1647 - accuracy: 0.9408 - val_loss: 1.2154 - val_accuracy: 0.5380 - 321ms/epoch - 2ms/step
+Epoch 2/2
+165/165 - 0s - loss: 0.1595 - accuracy: 0.9459 - val_loss: 0.1594 - val_accuracy: 0.9489 - 151ms/epoch - 914us/step
+
+################ Round: 00049 ################
+client-1: 0.7624938885700316
+client-2: 0.2464529689963216
+client-3: 0.8166591217745586
+client-4: 0.8673807420494699
+==============================================
+Average F1 Score:  0.6732466803475954
+Std_dev F1 Score:  0.24918522151875433
+Stop counter: 1
+Current Max F1 Score: 0.8904656160266589
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Batch Size : 116
+Epoch 1/5
+1003/1003 - 1s - loss: 0.3442 - accuracy: 0.8326 - val_loss: 0.3790 - val_accuracy: 0.7427 - 540ms/epoch - 538us/step
+Epoch 2/5
+1003/1003 - 0s - loss: 0.3201 - accuracy: 0.8461 - val_loss: 0.6292 - val_accuracy: 0.7362 - 392ms/epoch - 391us/step
+Epoch 3/5
+1003/1003 - 0s - loss: 0.3178 - accuracy: 0.8504 - val_loss: 0.3298 - val_accuracy: 0.7439 - 434ms/epoch - 433us/step
+Epoch 4/5
+1003/1003 - 0s - loss: 0.3095 - accuracy: 0.8609 - val_loss: 0.2667 - val_accuracy: 0.9582 - 406ms/epoch - 405us/step
+Epoch 5/5
+1003/1003 - 0s - loss: 0.2952 - accuracy: 0.8692 - val_loss: 0.2764 - val_accuracy: 0.8784 - 387ms/epoch - 386us/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00050 ################
+client-1: 0.3430548407388346
+client-2: 0.6483628228594671
+client-3: 0.6891348088531187
+client-4: 0.8513943214114866
+==============================================
+Average F1 Score:  0.6329866984657267
+Std_dev F1 Score:  0.18381472151818432
+Stop counter: 2
+Current Max F1 Score: 0.8904656160266589
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 518
+Epoch 1/5
+1002/1002 - 1s - loss: 0.1492 - accuracy: 0.9301 - val_loss: 0.2371 - val_accuracy: 0.8718 - 750ms/epoch - 748us/step
+Epoch 2/5
+1002/1002 - 1s - loss: 0.1335 - accuracy: 0.9421 - val_loss: 0.1188 - val_accuracy: 0.9636 - 519ms/epoch - 518us/step
+Epoch 3/5
+1002/1002 - 1s - loss: 0.1254 - accuracy: 0.9481 - val_loss: 0.1114 - val_accuracy: 0.9854 - 525ms/epoch - 524us/step
+Epoch 4/5
+1002/1002 - 1s - loss: 0.1172 - accuracy: 0.9545 - val_loss: 0.0827 - val_accuracy: 0.9826 - 555ms/epoch - 554us/step
+Epoch 5/5
+1002/1002 - 1s - loss: 0.1158 - accuracy: 0.9556 - val_loss: 0.1036 - val_accuracy: 0.9866 - 540ms/epoch - 539us/step
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00051 ################
+client-1: 0.703962703962704
+client-2: 0.255911718339464
+client-3: 0.30267449445531636
+client-4: 0.8284251696767514
+==============================================
+Average F1 Score:  0.522743521608559
+Std_dev F1 Score:  0.24794719698294773
+Stop counter: 3
+Current Max F1 Score: 0.8904656160266589
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Batch Size : 156
+Epoch 1/4
+746/746 - 0s - loss: 0.3212 - accuracy: 0.8505 - val_loss: 0.2440 - val_accuracy: 0.9582 - 447ms/epoch - 599us/step
+Epoch 2/4
+746/746 - 0s - loss: 0.3180 - accuracy: 0.8557 - val_loss: 0.2602 - val_accuracy: 0.8630 - 323ms/epoch - 433us/step
+Epoch 3/4
+746/746 - 0s - loss: 0.2976 - accuracy: 0.8611 - val_loss: 0.2578 - val_accuracy: 0.8711 - 284ms/epoch - 381us/step
+Epoch 4/4
+746/746 - 0s - loss: 0.2997 - accuracy: 0.8664 - val_loss: 0.4152 - val_accuracy: 0.7960 - 323ms/epoch - 432us/step
+Training client in folder:  ../clients/client-3/
+Batch Size : 2357
+11/11 - 0s - loss: 0.5782 - accuracy: 0.8726 - val_loss: 0.3740 - val_accuracy: 0.9034 - 182ms/epoch - 17ms/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00052 ################
+client-1: 0.34815842368994704
+client-2: 0.6458860439226799
+client-3: 0.7575757575757576
+client-4: 0.8448479397380404
+==============================================
+Average F1 Score:  0.6491170412316063
+Std_dev F1 Score:  0.18752360291264278
+Stop counter: 4
+Current Max F1 Score: 0.8904656160266589
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 795
+Epoch 1/4
+653/653 - 1s - loss: 0.1409 - accuracy: 0.9371 - val_loss: 0.1218 - val_accuracy: 0.9592 - 548ms/epoch - 839us/step
+Epoch 2/4
+653/653 - 0s - loss: 0.1273 - accuracy: 0.9457 - val_loss: 0.1138 - val_accuracy: 0.9597 - 381ms/epoch - 584us/step
+Epoch 3/4
+653/653 - 0s - loss: 0.1223 - accuracy: 0.9456 - val_loss: 0.1518 - val_accuracy: 0.9273 - 381ms/epoch - 584us/step
+Epoch 4/4
+653/653 - 0s - loss: 0.1094 - accuracy: 0.9597 - val_loss: 0.2259 - val_accuracy: 0.8691 - 376ms/epoch - 575us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.3723 - accuracy: 0.7897 - val_loss: 0.4308 - val_accuracy: 0.7933 - 197ms/epoch - 18ms/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00053 ################
+client-1: 0.686500461680517
+client-2: 0.8432969763909982
+client-3: 0.42391832766164317
+client-4: 0.7648177959900483
+==============================================
+Average F1 Score:  0.6796333904308017
+Std_dev F1 Score:  0.15770185661115105
+Stop counter: 5
+Current Max F1 Score: 0.8904656160266589
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Batch Size : 23
+Epoch 1/5
+1025/1025 - 1s - loss: 0.0954 - accuracy: 0.9665 - val_loss: 0.0771 - val_accuracy: 0.9763 - 519ms/epoch - 507us/step
+Epoch 2/5
+1025/1025 - 0s - loss: 0.0819 - accuracy: 0.9705 - val_loss: 0.0701 - val_accuracy: 0.9744 - 369ms/epoch - 360us/step
+Epoch 3/5
+1025/1025 - 0s - loss: 0.0809 - accuracy: 0.9712 - val_loss: 0.0961 - val_accuracy: 0.9435 - 415ms/epoch - 405us/step
+Epoch 4/5
+1025/1025 - 0s - loss: 0.0713 - accuracy: 0.9755 - val_loss: 0.0776 - val_accuracy: 0.9714 - 308ms/epoch - 301us/step
+Epoch 5/5
+1025/1025 - 0s - loss: 0.0683 - accuracy: 0.9761 - val_loss: 0.1043 - val_accuracy: 0.9656 - 321ms/epoch - 313us/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00054 ################
+client-1: 0.689725907821229
+client-2: 0.9343848097389174
+client-3: 0.9272800321414223
+client-4: 0.8296901941153568
+==============================================
+Average F1 Score:  0.8452702359542315
+Std_dev F1 Score:  0.09887339082070948
+Stop counter: 6
+Current Max F1 Score: 0.8904656160266589
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 1667
+Epoch 1/2
+312/312 - 0s - loss: 0.1459 - accuracy: 0.9324 - val_loss: 0.2688 - val_accuracy: 0.8699 - 423ms/epoch - 1ms/step
+Epoch 2/2
+312/312 - 0s - loss: 0.1244 - accuracy: 0.9454 - val_loss: 0.0835 - val_accuracy: 0.9794 - 263ms/epoch - 842us/step
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+Batch Size : 36310
+11/11 - 0s - loss: 0.2953 - accuracy: 0.9007 - val_loss: 0.2290 - val_accuracy: 0.9144 - 240ms/epoch - 22ms/step
+
+################ Round: 00055 ################
+client-1: 0.9662778074543794
+client-2: 0.9291919735527024
+client-3: 0.9267503035208418
+client-4: 0.8416911946744423
+==============================================
+Average F1 Score:  0.9159778198005916
+Std_dev F1 Score:  0.045659751684310884
+New Max F1 Score: 0.9159778198005916
+Current Max F1 Score: 0.9159778198005916
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+Batch Size : 363
+Epoch 1/5
+1001/1001 - 1s - loss: 0.1348 - accuracy: 0.9521 - val_loss: 0.1199 - val_accuracy: 0.9575 - 672ms/epoch - 671us/step
+Epoch 2/5
+1001/1001 - 1s - loss: 0.1151 - accuracy: 0.9596 - val_loss: 0.1246 - val_accuracy: 0.9564 - 501ms/epoch - 500us/step
+Epoch 3/5
+1001/1001 - 0s - loss: 0.1072 - accuracy: 0.9623 - val_loss: 0.1036 - val_accuracy: 0.9632 - 457ms/epoch - 457us/step
+Epoch 4/5
+1001/1001 - 0s - loss: 0.1039 - accuracy: 0.9636 - val_loss: 0.1013 - val_accuracy: 0.9642 - 494ms/epoch - 493us/step
+Epoch 5/5
+1001/1001 - 0s - loss: 0.1016 - accuracy: 0.9643 - val_loss: 0.2124 - val_accuracy: 0.9363 - 455ms/epoch - 455us/step
+
+################ Round: 00056 ################
+client-1: 0.7836991912614221
+client-2: 0.619829557264602
+client-3: 0.37092731829573933
+client-4: 0.8658645276292335
+==============================================
+Average F1 Score:  0.6600801486127492
+Std_dev F1 Score:  0.18898303345590808
+Stop counter: 1
+Current Max F1 Score: 0.9159778198005916
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.4492 - accuracy: 0.7427 - val_loss: 0.5040 - val_accuracy: 0.7776 - 213ms/epoch - 19ms/step
+Training client in folder:  ../clients/client-3/
+Batch Size : 37
+Epoch 1/4
+638/638 - 0s - loss: 0.0851 - accuracy: 0.9711 - val_loss: 1.2885 - val_accuracy: 0.7412 - 389ms/epoch - 609us/step
+Epoch 2/4
+638/638 - 0s - loss: 0.0787 - accuracy: 0.9726 - val_loss: 0.0732 - val_accuracy: 0.9771 - 274ms/epoch - 429us/step
+Epoch 3/4
+638/638 - 0s - loss: 0.0733 - accuracy: 0.9734 - val_loss: 0.0744 - val_accuracy: 0.9828 - 224ms/epoch - 351us/step
+Epoch 4/4
+638/638 - 0s - loss: 0.0652 - accuracy: 0.9777 - val_loss: 0.0698 - val_accuracy: 0.9775 - 227ms/epoch - 356us/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00057 ################
+client-1: 0.47193282537707976
+client-2: 0.6426335453902857
+client-3: 0.9220726234190126
+client-4: 0.861271676300578
+==============================================
+Average F1 Score:  0.724477667621739
+Std_dev F1 Score:  0.17904868406048793
+Stop counter: 2
+Current Max F1 Score: 0.9159778198005916
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 980
+Epoch 1/3
+530/530 - 1s - loss: 0.1375 - accuracy: 0.9413 - val_loss: 0.1272 - val_accuracy: 0.8691 - 506ms/epoch - 954us/step
+Epoch 2/3
+530/530 - 0s - loss: 0.1297 - accuracy: 0.9396 - val_loss: 0.0902 - val_accuracy: 0.9779 - 349ms/epoch - 658us/step
+Epoch 3/3
+530/530 - 0s - loss: 0.1129 - accuracy: 0.9562 - val_loss: 0.0857 - val_accuracy: 0.9848 - 340ms/epoch - 642us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.4215 - accuracy: 0.7427 - val_loss: 0.3892 - val_accuracy: 0.7834 - 196ms/epoch - 18ms/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00058 ################
+client-1: 0.9177617265686189
+client-2: 0.8998936655020507
+client-3: 0.7373691397360036
+client-4: 0.8307586680398215
+==============================================
+Average F1 Score:  0.8464457999616236
+Std_dev F1 Score:  0.07086331849509535
+Stop counter: 3
+Current Max F1 Score: 0.9159778198005916
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Batch Size : 89
+Epoch 1/2
+265/265 - 0s - loss: 0.0747 - accuracy: 0.9757 - val_loss: 0.0661 - val_accuracy: 0.9763 - 274ms/epoch - 1ms/step
+Epoch 2/2
+265/265 - 0s - loss: 0.0579 - accuracy: 0.9809 - val_loss: 0.0612 - val_accuracy: 0.9878 - 108ms/epoch - 408us/step
+Training client in folder:  ../clients/client-4/
+Batch Size : 36310
+11/11 - 0s - loss: 0.2255 - accuracy: 0.9192 - val_loss: 0.1887 - val_accuracy: 0.9248 - 237ms/epoch - 22ms/step
+
+################ Round: 00059 ################
+client-1: 0.7234893269416798
+client-2: 0.6175395858708892
+client-3: 0.9323187825390469
+client-4: 0.8697705986154473
+==============================================
+Average F1 Score:  0.7857795734917657
+Std_dev F1 Score:  0.12320004092884146
+Stop counter: 4
+Current Max F1 Score: 0.9159778198005916
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 51868
+11/11 - 0s - loss: 0.3115 - accuracy: 0.8841 - val_loss: 0.3537 - val_accuracy: 0.8211 - 272ms/epoch - 25ms/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 303
+Epoch 1/2
+384/384 - 0s - loss: 0.3408 - accuracy: 0.8407 - val_loss: 0.2697 - val_accuracy: 0.8913 - 345ms/epoch - 900us/step
+Epoch 2/2
+384/384 - 0s - loss: 0.3207 - accuracy: 0.8482 - val_loss: 0.4748 - val_accuracy: 0.7920 - 159ms/epoch - 414us/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00060 ################
+client-1: 0.8434371433230067
+client-2: 0.8599944933920705
+client-3: 0.8227305218012866
+client-4: 0.7969392362348804
+==============================================
+Average F1 Score:  0.8307753486878111
+Std_dev F1 Score:  0.02357796220092947
+Stop counter: 5
+Current Max F1 Score: 0.9159778198005916
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Batch Size : 2357
+11/11 - 0s - loss: 0.1316 - accuracy: 0.9454 - val_loss: 0.2414 - val_accuracy: 0.9168 - 190ms/epoch - 17ms/step
+Training client in folder:  ../clients/client-4/
+Batch Size : 1788
+Epoch 1/2
+204/204 - 0s - loss: 0.1425 - accuracy: 0.9495 - val_loss: 0.1283 - val_accuracy: 0.9564 - 339ms/epoch - 2ms/step
+Epoch 2/2
+204/204 - 0s - loss: 0.1202 - accuracy: 0.9572 - val_loss: 0.1295 - val_accuracy: 0.9560 - 174ms/epoch - 851us/step
+
+################ Round: 00061 ################
+client-1: 0.7365853658536585
+client-2: 0.6241294551413356
+client-3: 0.9223856209150327
+client-4: 0.895297940331373
+==============================================
+Average F1 Score:  0.79459959556035
+Std_dev F1 Score:  0.12134160924690127
+Stop counter: 6
+Current Max F1 Score: 0.9159778198005916
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 51868
+11/11 - 0s - loss: 0.2676 - accuracy: 0.8919 - val_loss: 0.3273 - val_accuracy: 0.8269 - 266ms/epoch - 24ms/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 309
+Epoch 1/2
+377/377 - 0s - loss: 0.3378 - accuracy: 0.8435 - val_loss: 0.2777 - val_accuracy: 0.8890 - 340ms/epoch - 902us/step
+Epoch 2/2
+377/377 - 0s - loss: 0.3208 - accuracy: 0.8542 - val_loss: 0.2370 - val_accuracy: 0.9078 - 161ms/epoch - 427us/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00062 ################
+client-1: 0.886107634543179
+client-2: 0.9324963072378138
+client-3: 0.7383348581884721
+client-4: 0.8564873295352015
+==============================================
+Average F1 Score:  0.8533565323761665
+Std_dev F1 Score:  0.07172085833650045
+Stop counter: 7
+Current Max F1 Score: 0.9159778198005916
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Batch Size : 23
+Epoch 1/5
+1025/1025 - 1s - loss: 0.0892 - accuracy: 0.9691 - val_loss: 0.0709 - val_accuracy: 0.9752 - 507ms/epoch - 495us/step
+Epoch 2/5
+1025/1025 - 0s - loss: 0.0749 - accuracy: 0.9731 - val_loss: 0.0657 - val_accuracy: 0.9763 - 375ms/epoch - 366us/step
+Epoch 3/5
+1025/1025 - 0s - loss: 0.0738 - accuracy: 0.9741 - val_loss: 0.0708 - val_accuracy: 0.9821 - 376ms/epoch - 367us/step
+Epoch 4/5
+1025/1025 - 0s - loss: 0.0668 - accuracy: 0.9773 - val_loss: 0.0787 - val_accuracy: 0.9695 - 388ms/epoch - 379us/step
+Epoch 5/5
+1025/1025 - 0s - loss: 0.0648 - accuracy: 0.9769 - val_loss: 0.1895 - val_accuracy: 0.9553 - 308ms/epoch - 300us/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00063 ################
+client-1: 0.7035484889965252
+client-2: 0.9347907464250954
+client-3: 0.9206598586017282
+client-4: 0.858575197889182
+==============================================
+Average F1 Score:  0.8543935729781327
+Std_dev F1 Score:  0.09168785559838863
+Stop counter: 8
+Current Max F1 Score: 0.9159778198005916
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 518
+Epoch 1/5
+1002/1002 - 1s - loss: 0.1212 - accuracy: 0.9515 - val_loss: 0.0883 - val_accuracy: 0.9859 - 710ms/epoch - 708us/step
+Epoch 2/5
+1002/1002 - 1s - loss: 0.1140 - accuracy: 0.9582 - val_loss: 0.0693 - val_accuracy: 0.9857 - 580ms/epoch - 579us/step
+Epoch 3/5
+1002/1002 - 1s - loss: 0.0996 - accuracy: 0.9653 - val_loss: 0.0688 - val_accuracy: 0.9836 - 524ms/epoch - 523us/step
+Epoch 4/5
+1002/1002 - 1s - loss: 0.1032 - accuracy: 0.9637 - val_loss: 0.0893 - val_accuracy: 0.9740 - 577ms/epoch - 576us/step
+Epoch 5/5
+1002/1002 - 1s - loss: 0.1076 - accuracy: 0.9618 - val_loss: 0.0723 - val_accuracy: 0.9862 - 527ms/epoch - 526us/step
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00064 ################
+client-1: 0.9333426986022336
+client-2: 0.9229592227067555
+client-3: 0.9249106078665077
+client-4: 0.8642693272154938
+==============================================
+Average F1 Score:  0.9113704640977476
+Std_dev F1 Score:  0.027472399804610647
+Stop counter: 9
+Current Max F1 Score: 0.9159778198005916
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+Batch Size : 363
+Epoch 1/5
+1001/1001 - 1s - loss: 0.1208 - accuracy: 0.9571 - val_loss: 0.1143 - val_accuracy: 0.9623 - 646ms/epoch - 645us/step
+Epoch 2/5
+1001/1001 - 0s - loss: 0.1079 - accuracy: 0.9620 - val_loss: 0.1124 - val_accuracy: 0.9630 - 458ms/epoch - 458us/step
+Epoch 3/5
+1001/1001 - 0s - loss: 0.1035 - accuracy: 0.9637 - val_loss: 0.0993 - val_accuracy: 0.9654 - 478ms/epoch - 478us/step
+Epoch 4/5
+1001/1001 - 0s - loss: 0.0996 - accuracy: 0.9649 - val_loss: 0.0987 - val_accuracy: 0.9649 - 448ms/epoch - 447us/step
+Epoch 5/5
+1001/1001 - 0s - loss: 0.0997 - accuracy: 0.9651 - val_loss: 0.1729 - val_accuracy: 0.9445 - 408ms/epoch - 408us/step
+
+################ Round: 00065 ################
+client-1: 0.9179168055709893
+client-2: 0.6275826972010178
+client-3: 0.730174081237911
+client-4: 0.8876866479117074
+==============================================
+Average F1 Score:  0.7908400579804064
+Std_dev F1 Score:  0.1181747523186475
+Stop counter: 10
+Current Max F1 Score: 0.9159778198005916
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Batch Size : 311
+Epoch 1/2
+375/375 - 0s - loss: 0.3405 - accuracy: 0.8504 - val_loss: 0.2570 - val_accuracy: 0.9169 - 354ms/epoch - 944us/step
+Epoch 2/2
+375/375 - 0s - loss: 0.3171 - accuracy: 0.8549 - val_loss: 0.3104 - val_accuracy: 0.9541 - 206ms/epoch - 550us/step
+Training client in folder:  ../clients/client-3/
+Batch Size : 2357
+11/11 - 0s - loss: 0.3071 - accuracy: 0.9167 - val_loss: 0.1339 - val_accuracy: 0.9328 - 202ms/epoch - 18ms/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00066 ################
+client-1: 0.45545659976073377
+client-2: 0.6366605429679526
+client-3: 0.7648725212464589
+client-4: 0.8849436854018381
+==============================================
+Average F1 Score:  0.6854833373442458
+Std_dev F1 Score:  0.1592035161530195
+Stop counter: 11
+Current Max F1 Score: 0.9159778198005916
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Batch Size : 951
+Epoch 1/3
+546/546 - 1s - loss: 0.1151 - accuracy: 0.9559 - val_loss: 0.1472 - val_accuracy: 0.8685 - 529ms/epoch - 969us/step
+Epoch 2/3
+546/546 - 0s - loss: 0.1139 - accuracy: 0.9542 - val_loss: 0.0812 - val_accuracy: 0.9790 - 342ms/epoch - 627us/step
+Epoch 3/3
+546/546 - 0s - loss: 0.1186 - accuracy: 0.9530 - val_loss: 0.0903 - val_accuracy: 0.9762 - 355ms/epoch - 650us/step
+Training client in folder:  ../clients/client-2/
+Batch Size : 11631
+11/11 - 0s - loss: 0.3637 - accuracy: 0.7591 - val_loss: 0.6184 - val_accuracy: 0.7788 - 208ms/epoch - 19ms/step
+Training client in folder:  ../clients/client-3/
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00067 ################
+client-1: 0.8714435912957594
+client-2: 0.8397551815273334
+client-3: 0.6235093696763203
+client-4: 0.7987532121442847
+==============================================
+Average F1 Score:  0.7833653386609245
+Std_dev F1 Score:  0.0958231579995811
+Stop counter: 12
+Current Max F1 Score: 0.9159778198005916
+##############################################
+
+Training client in folder:  ../clients/client-1/
+Training client in folder:  ../clients/client-2/
+Training client in folder:  ../clients/client-3/
+Batch Size : 23
+Epoch 1/5
+1025/1025 - 0s - loss: 0.0856 - accuracy: 0.9705 - val_loss: 0.0673 - val_accuracy: 0.9756 - 491ms/epoch - 479us/step
+Epoch 2/5
+1025/1025 - 0s - loss: 0.0712 - accuracy: 0.9747 - val_loss: 0.0638 - val_accuracy: 0.9779 - 347ms/epoch - 339us/step
+Epoch 3/5
+1025/1025 - 0s - loss: 0.0722 - accuracy: 0.9740 - val_loss: 0.0757 - val_accuracy: 0.9859 - 312ms/epoch - 304us/step
+Epoch 4/5
+1025/1025 - 0s - loss: 0.0649 - accuracy: 0.9778 - val_loss: 0.0720 - val_accuracy: 0.9729 - 353ms/epoch - 344us/step
+Epoch 5/5
+1025/1025 - 0s - loss: 0.0656 - accuracy: 0.9772 - val_loss: 0.0850 - val_accuracy: 0.9695 - 407ms/epoch - 397us/step
+Training client in folder:  ../clients/client-4/
+
+################ Round: 00068 ################
+client-1: 0.7179882950672068
+client-2: 0.9342618810744624
+client-3: 0.9196428571428571
+client-4: 0.849129540781357
+==============================================
+Average F1 Score:  0.8552556435164709
+Std_dev F1 Score:  0.08553881127396575
+Stop counter: 13
+Current Max F1 Score: 0.9159778198005916
+##############################################
+
